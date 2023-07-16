@@ -46,7 +46,6 @@ nav li a{
 /*  Header-Nav-End */
 
 .top-banner-info{
-    width: 862px;
     margin: 0px auto;
     text-align: center;
 }
@@ -71,7 +70,36 @@ nav li a{
 }
 img{
     margin-top: 50px;
+    width: 100%;
 }
 /* Header End */
+
+/* Media Query For Mobile */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        padding-top: 25px;
+    }
+}
+
+/* Media Query For Tablet */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 10px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        padding-top: 25px;
+    }
+}
+
 
 
