@@ -242,6 +242,19 @@ font-size: 1rem;
 
 /* Main End  */
 
+/* footer  Start */
+
+.copy{
+    margin-top: 130px;
+    color: #424242;
+font-size: 1.25rem;
+text-align: center;
+background-color: #FFF4E7;
+padding: 40px 0px;
+}
+
+/* footer  End */
+
 /* Media Query For Mobile */
 @media screen and (max-width: 576px) {
   header {
